@@ -58,7 +58,7 @@ while True:
     # Check for collisions
     if (new_head[0] in [0, 19] or new_head[1] in [0, 59] or new_head in snake[1:]):
         break
-
+    
 # End the game
 curses.endwin()
 print(f'Game Over! Your score was {score}')
