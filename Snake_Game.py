@@ -17,7 +17,7 @@ score = 0
 
 def draw_snake(screen, snake):
     for y, x in snake:
-        screen.addch(y, x, '#')
+        screen.addch(y, x, '*')
 
 def draw_food(screen, food):
     y, x = food
