@@ -6,7 +6,7 @@ def main(screen):
     # Set up the screen
     curses.curs_set(0)  # Hide the cursor
     screen.nodelay(1)   # Make getch() non-blocking
-    screen.timeout(100) # Refresh screen every 100ms
+    screen.timeout(99) # Refresh screen every 100ms
 
     # Get screen dimensions
     sh, sw = screen.getmaxyx()
