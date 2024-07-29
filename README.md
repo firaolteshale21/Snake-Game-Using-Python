@@ -1,1 +1,1 @@
-#Its a snake gamemade using termial
+##Snake Game using Python Terminal
