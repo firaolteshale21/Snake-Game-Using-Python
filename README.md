@@ -1,1 +1,1 @@
-##Snake Game using Python Terminal
+#Snake Game using Python Terminal
